@@ -1,0 +1,52 @@
+# Ambiente virtual
+venv/
+env/
+ENV/
+
+# Arquivos de compilação Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Arquivos de firmware
+firmware.bin
+bootloader.bin
+partitions.bin
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+.directory
+.Trash-*
+
+# Logs
+*.log
+logs/
+
+# Arquivos de configuração do IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Outros
+.env
+.coverage
+htmlcov/
